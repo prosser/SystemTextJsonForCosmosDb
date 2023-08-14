@@ -22,6 +22,7 @@
     <PackageVersion>0.1.0</PackageVersion>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
