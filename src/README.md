@@ -21,9 +21,6 @@ Install-Package SystemTextJsonForCosmosDb
 Add the following code to your services registration code (e.g., in Startup's `ConfigureServices`, or anywhere you're adding to your `IServiceCollection`):
 
 ```csharp
-using System.Text.Json;
-using SystemTextJsonForCosmosDb;
-
 // replace with your options
 JsonSerializerOptions mySerializerOptions = new()
 {
@@ -39,12 +36,6 @@ services
 When you want to initialize a connection to Cosmos DB, you can inject the `ICosmosClientOptionsProvider` like this:
 
 ```csharp
-namespace MyNamespace;
-
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using SystemTextJsonForCosmosDb;
-
 internal class MyRepository
 {
     private CosmosClient client;
