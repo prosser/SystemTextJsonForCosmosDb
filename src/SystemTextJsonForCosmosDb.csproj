@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>11</LangVersion>
+    <Deterministic>True</Deterministic>
+    <PackageReadMeFile>README.md</PackageReadMeFile>
+
+    <!--<PackageIcon>package-icon.png</PackageIcon>-->
+    <!--<PackageIconPath>$(MSBuildThisFileDirectory)package-icon.png</PackageIconPath>-->
+    <RepositoryUrl>https://github.com/prosser/SystemTextJsonForCosmosDb.git</RepositoryUrl>
+    <PackageId>SystemTextJsonForCosmosDb</PackageId>
+
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSource>true</IncludeSource>
+    <Authors>Peter Rosser</Authors>
+    <Copyright>Copyright (c) Peter Rosser. All rights reserved.</Copyright>
+    <Deterinistic>true</Deterinistic>
+    <PackageVersion>0.1.0</PackageVersion>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+  <ItemGroup>
+    <EditorConfigFiles Remove="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.35.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
+  </ItemGroup>
+</Project>

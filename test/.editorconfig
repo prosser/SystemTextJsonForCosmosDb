@@ -1,0 +1,3 @@
+[*.cs]
+csharp_style_unused_value_assignment_preference = discard_variable:silent
+dotnet_diagnostic.IDE0058.severity = silent
