@@ -1,5 +1,7 @@
 # SystemTextJsonFoCosmosDb
 
+[![.NET Build and Package](https://github.com/prosser/SystemTextJsonForCosmosDb/actions/workflows/dotnet.yml/badge.svg)](https://github.com/prosser/SystemTextJsonForCosmosDb/actions/workflows/dotnet.yml)
+
 A tiny package for using System.Text.Json with Cosmos DB.
 
 ## Installing
