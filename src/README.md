@@ -1,4 +1,4 @@
-# SystemTextJsonFoCosmosDb
+# SystemTextJsonForCosmosDb
 
 A tiny package for using System.Text.Json with Cosmos DB.
 

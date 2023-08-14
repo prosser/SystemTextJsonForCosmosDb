@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <PackageVersion>0.1.1</PackageVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>11</LangVersion>
@@ -19,9 +20,6 @@
     <Authors>Peter Rosser</Authors>
     <Copyright>Copyright (c) Peter Rosser. All rights reserved.</Copyright>
     <Deterinistic>true</Deterinistic>
-    <PackageVersion>0.1.0</PackageVersion>
-
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
