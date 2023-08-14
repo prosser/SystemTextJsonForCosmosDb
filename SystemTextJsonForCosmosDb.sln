@@ -5,7 +5,14 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemTextJsonForCosmosDb", "src\SystemTextJsonForCosmosDb.csproj", "{4A36972E-66D5-4388-9F61-DDE38D1991BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextJsonForCosmosDb.UnitTests", "test\SystemTextJsonForCosmosDb.UnitTests\SystemTextJsonForCosmosDb.UnitTests.csproj", "{9FBC15E8-D139-4063-AB62-2EAFE35BE755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemTextJsonForCosmosDb.UnitTests", "test\SystemTextJsonForCosmosDb.UnitTests\SystemTextJsonForCosmosDb.UnitTests.csproj", "{9FBC15E8-D139-4063-AB62-2EAFE35BE755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21651E0E-829D-4D3D-A535-A7AC8BA9FC47}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.lutignore = .lutignore
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
