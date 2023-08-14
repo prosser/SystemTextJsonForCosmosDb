@@ -46,7 +46,7 @@ jobs:
       uses: Jacup/publish-nuget@v2.6.0
       with:
         # Filepath of the project to be packaged, relative to root of repository
-        PROJECT_FILE_PATH: src/SystemTextJsonForCosmosDb/SystemTextJsonForCosmosDb.csproj
+        PROJECT_FILE_PATH: src/SystemTextJsonForCosmosDb.csproj
         # NuGet package id, used for version detection & defaults to project name
         PACKAGE_NAME: SystemTextJsonForCosmosDb
         # Regex pattern to extract version info in a capturing group
